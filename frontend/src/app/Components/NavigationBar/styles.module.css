@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  padding: 16px 32px;
+}
+
+.navigator {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 14px;
+  border: 2px solid var(--grey-120);
+  background-color: var(--grey-060);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.navigator a:first-child {
+  background-color: var(--grey-100);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 7px;
+}
+
+.actions svg {
+  fill: #ffffff;
+}

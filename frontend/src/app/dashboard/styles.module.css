@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-image: linear-gradient(to bottom, #141414, #1414149c, #141414),
+    url("/images/thumbnail-films-and-series.png");
+  background-repeat: no-repeat;
+  background-size: cover; /* ajuste conforme necessário */
+  background-position: top; /* ajuste conforme necessário */
+  background-position-y: top;
+}
+
+.sections {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+  width: 100%;
+  max-width: 1220px;
+  margin: 150px auto;
+  align-self: stretch;
+  gap: 120px;
+}

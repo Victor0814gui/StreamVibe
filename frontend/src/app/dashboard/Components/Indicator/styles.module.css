@@ -1,0 +1,43 @@
+.actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  border: 2px solid var(--grey-120);
+  background-color: var(--grey-060);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.button {
+  height: 44px;
+  width: 44px;
+  border-radius: 10px;
+  background-color: var(--grey-100);
+  border-radius: 10px;
+  padding: 10px;
+  border: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.indicator {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+.line {
+  height: 3px;
+  border-radius: 2px;
+  width: 10px;
+  background-color: var(--grey-120);
+}
+
+.selected {
+  background-color: var(--red-450);
+  width: 13px;
+}
