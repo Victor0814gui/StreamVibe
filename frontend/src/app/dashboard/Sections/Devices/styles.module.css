@@ -2,4 +2,45 @@
   display: flex;
   flex-direction: column;
   flex: 1;
+  gap: 22px;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Três colunas com tamanhos iguais */
+  gap: 22px; /* Espaçamento entre os itens */
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid var(--grey-150);
+  border-radius: 10px;
+  padding: 22px;
+  gap: 22px;
+}
+
+.cardHeader {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.card p {
+  color: var(--grey-600);
+  font-weight: 500;
+}
+
+.button {
+  height: 44px;
+  width: 44px;
+  border-radius: 10px;
+  background-color: var(--grey-100);
+  border-radius: 10px;
+  padding: 10px;
+  border: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
