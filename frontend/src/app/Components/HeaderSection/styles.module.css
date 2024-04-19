@@ -16,4 +16,5 @@
 
 .subtitle {
   color: var(--grey-600);
+  max-width: 90%;
 }

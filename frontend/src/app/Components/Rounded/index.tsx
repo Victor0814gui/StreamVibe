@@ -16,7 +16,7 @@ type ButtonProps = {
   type?: "default" | "big";
 };
 
-export function Button({ label, icon: Icon, type = "default" }: ButtonProps) {
+export function Rounded({ label, icon: Icon, type = "default" }: ButtonProps) {
   return (
     <button
       className={`

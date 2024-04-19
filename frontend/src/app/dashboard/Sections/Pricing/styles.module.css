@@ -21,3 +21,32 @@
   flex-direction: column;
   gap: 20px;
 }
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card div h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.card p {
+  color: var(--grey-600);
+}
+
+.card h1 {
+  font-weight: 500;
+}
+
+.card h1 span {
+  color: var(--grey-600);
+  font-size: 16px;
+}
+
+.footer {
+  display: flex;
+  gap: 12px;
+}
