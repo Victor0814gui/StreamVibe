@@ -1,11 +1,13 @@
-import { NavigationBar } from "../Components/NavigationBar";
 import styles from "./styles.module.css";
-import { Manrope } from "next/font/google";
+
+import { NavigationBar } from "../Components/NavigationBar";
+
 import { HeroSection } from "./Sections/HeroSection";
 import { Categories } from "./Sections/Categories";
 import { Devices } from "./Sections/Devices";
 import { FAQs } from "./Sections/FAQs";
 import { Pricing } from "./Sections/Pricing";
+import { CTA } from "./Sections/CTA";
 
 export default function Dashboard() {
   return (
@@ -19,6 +21,7 @@ export default function Dashboard() {
         <Devices />
         <FAQs />
         <Pricing />
+        <CTA />
       </div>
     </div>
   );
