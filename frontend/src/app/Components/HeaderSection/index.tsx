@@ -6,7 +6,7 @@ import { ArrowLeft, ArrowRight } from "@phosphor-icons/react";
 type HeaderSectionProps = {
   title: string;
   subtitle: string;
-  content?: ElementType;
+  content?: ReactNode;
 };
 
 export function HeaderSection({
@@ -20,7 +20,7 @@ export function HeaderSection({
         <h1 className={styles.title}>{title}</h1>
         <p className={styles.subtitle}>{subtitle}</p>
       </div>
-      {Content && <Content />}
+      {Content && Content}
     </div>
   );
 }

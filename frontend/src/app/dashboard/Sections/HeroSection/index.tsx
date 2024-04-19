@@ -4,6 +4,7 @@ import styles from "./styles.module.css";
 import { Play } from "@phosphor-icons/react";
 import { Manrope } from "next/font/google";
 import { AbstractLogo } from "@/app/Components/Icons/AbstractLogo";
+import { Button } from "@/app/Components/Button";
 
 const roboto = Manrope({
   weight: "400",
@@ -25,10 +26,7 @@ export function HeroSection() {
           create your own watchlists, so you can easily find the content you
           want to watch.
         </p>
-        <button className={`${styles.button} ${roboto.className}`}>
-          <Play size={24} weight="fill" color="#ffffff" />
-          Start Watching Now
-        </button>
+        <Button label="Start Watching Now" icon={Play} />
       </div>
     </div>
   );

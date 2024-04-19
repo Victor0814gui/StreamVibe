@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 21px;
+}
+
+.card {
+  background-color: var(--grey-100);
+  border: 1px solid var(--grey-150);
+  border-radius: 8px;
+  padding: 32px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

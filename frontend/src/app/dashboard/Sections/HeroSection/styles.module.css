@@ -30,17 +30,3 @@
   width: 95%;
   max-width: 1340px;
 }
-
-.button {
-  border: 0;
-  height: 52px;
-  padding: 0 21px;
-  background-color: var(--red-450);
-  border-radius: 8px;
-  color: var(--white);
-
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  gap: 7px;
-}

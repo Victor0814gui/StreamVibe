@@ -10,7 +10,7 @@ export function Categories() {
       <HeaderSection
         title="Explore our wide variety of categories"
         subtitle="Whether you re looking for a comedy to make you laugh, a drama to make you think, or a documentary to learn something new"
-        content={Indicator}
+        content={<Indicator />}
       />
       <div className={styles.list}>
         {new Array(5).fill({ id: 1 }).map((e, index) => (
