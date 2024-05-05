@@ -11,7 +11,7 @@ const roboto = Manrope({
 });
 
 type ButtonProps = {
-  label: string;
+  label?: string;
   icon?: ElementType;
   type?: "default" | "big";
 };
@@ -26,7 +26,7 @@ export function Button({ label, icon: Icon, type = "default" }: ButtonProps) {
       `}
     >
       {Icon && <Icon size={24} weight="fill" color="#ffffff" />}
-      {label}
+      {label && label}
     </button>
   );
 }

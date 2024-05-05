@@ -1,0 +1,27 @@
+.container {
+  padding: 92px;
+  background-color: var(--grey-060);
+
+  display: flex;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 42px;
+
+  width: 100%;
+  max-width: 1220px;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.navigation p {
+  color: var(--grey-600);
+}

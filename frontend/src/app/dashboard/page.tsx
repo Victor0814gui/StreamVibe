@@ -8,6 +8,7 @@ import { Devices } from "./Sections/Devices";
 import { FAQs } from "./Sections/FAQs";
 import { Pricing } from "./Sections/Pricing";
 import { CTA } from "./Sections/CTA";
+import { Footer } from "../Components/Footer";
 
 export default function Dashboard() {
   return (
@@ -23,6 +24,7 @@ export default function Dashboard() {
         <Pricing />
         <CTA />
       </div>
+      <Footer />
     </div>
   );
 }
